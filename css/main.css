@@ -1,40 +1,53 @@
-section {
+html {
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+body {
+  font-family: "Lato", sans-serif;
   max-width: 25em;
   display: block;
   padding: 1em;
+  margin: 0;
 }
 
 div {
   display: inline-block;
   padding: 1em;
-  vertical-align: middle;
 }
 
 img {
   width: 100%;
+  display: block;
 }
 
 h2 {
-  display: inline-block;
-  font-family: 'Lato', sans-serif;
   font-weight: 900;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
-  display: inline-block;
   text-align: left;
 }
 
 a {
-  display: inline-block;
-  padding: .5rem;
-  border-radius: 5px;
-  border-style: solid;
-  border-color: #000;
-  font-family: 'Lato', sans-serif;
   font-size: 14pt;
   text-decoration: none;
   color: #000;
   text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin: .5em;
+}
+
+.btn-ghost {
+  padding: .5rem;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000;
+}
+
+.btn-ghost:hover {
+  border: solid #fff;
 }
