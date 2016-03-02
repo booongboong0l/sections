@@ -1,11 +1,9 @@
 html {
   box-sizing: border-box;
-  vertical-align: middle;
 }
 
 body {
   font-family: "Lato", sans-serif;
-  max-width: 25em;
   display: block;
   padding: 1em;
   margin: 0;
@@ -14,11 +12,14 @@ body {
 div {
   display: inline-block;
   padding: 1em;
+  max-width: 25em;
+  vertical-align: middle;
 }
 
 img {
   width: 100%;
   display: block;
+  padding: 1em;
 }
 
 h2 {
